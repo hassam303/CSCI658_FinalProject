@@ -13,6 +13,32 @@
 		15B79DC1207C24E000DCDA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B79DC0207C24E000DCDA16 /* Assets.xcassets */; };
 		15B79DC4207C24E000DCDA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B79DC2207C24E000DCDA16 /* LaunchScreen.storyboard */; };
 		15B79DCF207C24E000DCDA16 /* CSCI658_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B79DCE207C24E000DCDA16 /* CSCI658_FinalTests.swift */; };
+		15B79DDA207C36FD00DCDA16 /* PinPadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B79DD9207C36FD00DCDA16 /* PinPadCollectionViewCell.swift */; };
+		15DD273F207C3DFE002E71D3 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD273E207C3DFE002E71D3 /* State.swift */; };
+		15DD2741207C3FCA002E71D3 /* ActionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2740207C3FCA002E71D3 /* ActionResponse.swift */; };
+		15DD2743207C419E002E71D3 /* ChangeButtonColorAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2742207C419E002E71D3 /* ChangeButtonColorAction.swift */; };
+		15DD2747207C438A002E71D3 /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2746207C438A002E71D3 /* Screen1.swift */; };
+		15DD2749207C43CC002E71D3 /* Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2748207C43CC002E71D3 /* Screen2.swift */; };
+		15DD2757207C44B9002E71D3 /* Screen8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD274A207C44B8002E71D3 /* Screen8.swift */; };
+		15DD2758207C44B9002E71D3 /* Screen15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD274B207C44B9002E71D3 /* Screen15.swift */; };
+		15DD2759207C44B9002E71D3 /* Screen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD274C207C44B9002E71D3 /* Screen3.swift */; };
+		15DD275A207C44B9002E71D3 /* Screen14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD274D207C44B9002E71D3 /* Screen14.swift */; };
+		15DD275B207C44B9002E71D3 /* Screen10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD274E207C44B9002E71D3 /* Screen10.swift */; };
+		15DD275C207C44B9002E71D3 /* Screen9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD274F207C44B9002E71D3 /* Screen9.swift */; };
+		15DD275D207C44B9002E71D3 /* Screen12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2750207C44B9002E71D3 /* Screen12.swift */; };
+		15DD275E207C44B9002E71D3 /* Screen6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2751207C44B9002E71D3 /* Screen6.swift */; };
+		15DD275F207C44B9002E71D3 /* Screen7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2752207C44B9002E71D3 /* Screen7.swift */; };
+		15DD2760207C44B9002E71D3 /* Screen13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2753207C44B9002E71D3 /* Screen13.swift */; };
+		15DD2761207C44B9002E71D3 /* Screen5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2754207C44B9002E71D3 /* Screen5.swift */; };
+		15DD2762207C44B9002E71D3 /* Screen11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2755207C44B9002E71D3 /* Screen11.swift */; };
+		15DD2763207C44B9002E71D3 /* Screen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2756207C44B9002E71D3 /* Screen4.swift */; };
+		15DD2765207D0E0D002E71D3 /* TransitionAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2764207D0E0D002E71D3 /* TransitionAction.swift */; };
+		15DD2767207D0E71002E71D3 /* NumberEnteredAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2766207D0E71002E71D3 /* NumberEnteredAction.swift */; };
+		15DD2769207D10CD002E71D3 /* UpdateDisplayAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2768207D10CD002E71D3 /* UpdateDisplayAction.swift */; };
+		15DD276B207D115F002E71D3 /* NoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD276A207D115F002E71D3 /* NoAction.swift */; };
+		15DD276D207D1484002E71D3 /* ButtonPressedAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD276C207D1484002E71D3 /* ButtonPressedAction.swift */; };
+		15DD276F207FE274002E71D3 /* BalanceChangeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD276E207FE274002E71D3 /* BalanceChangeAction.swift */; };
+		15DD2771207FF6D8002E71D3 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD2770207FF6D8002E71D3 /* Context.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +62,32 @@
 		15B79DCA207C24E000DCDA16 /* CSCI658_FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSCI658_FinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B79DCE207C24E000DCDA16 /* CSCI658_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSCI658_FinalTests.swift; sourceTree = "<group>"; };
 		15B79DD0207C24E000DCDA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B79DD9207C36FD00DCDA16 /* PinPadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPadCollectionViewCell.swift; sourceTree = "<group>"; };
+		15DD273E207C3DFE002E71D3 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		15DD2740207C3FCA002E71D3 /* ActionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionResponse.swift; sourceTree = "<group>"; };
+		15DD2742207C419E002E71D3 /* ChangeButtonColorAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeButtonColorAction.swift; sourceTree = "<group>"; };
+		15DD2746207C438A002E71D3 /* Screen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+		15DD2748207C43CC002E71D3 /* Screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2.swift; sourceTree = "<group>"; };
+		15DD274A207C44B8002E71D3 /* Screen8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen8.swift; sourceTree = "<group>"; };
+		15DD274B207C44B9002E71D3 /* Screen15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen15.swift; sourceTree = "<group>"; };
+		15DD274C207C44B9002E71D3 /* Screen3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen3.swift; sourceTree = "<group>"; };
+		15DD274D207C44B9002E71D3 /* Screen14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen14.swift; sourceTree = "<group>"; };
+		15DD274E207C44B9002E71D3 /* Screen10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen10.swift; sourceTree = "<group>"; };
+		15DD274F207C44B9002E71D3 /* Screen9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen9.swift; sourceTree = "<group>"; };
+		15DD2750207C44B9002E71D3 /* Screen12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen12.swift; sourceTree = "<group>"; };
+		15DD2751207C44B9002E71D3 /* Screen6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen6.swift; sourceTree = "<group>"; };
+		15DD2752207C44B9002E71D3 /* Screen7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen7.swift; sourceTree = "<group>"; };
+		15DD2753207C44B9002E71D3 /* Screen13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen13.swift; sourceTree = "<group>"; };
+		15DD2754207C44B9002E71D3 /* Screen5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen5.swift; sourceTree = "<group>"; };
+		15DD2755207C44B9002E71D3 /* Screen11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen11.swift; sourceTree = "<group>"; };
+		15DD2756207C44B9002E71D3 /* Screen4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen4.swift; sourceTree = "<group>"; };
+		15DD2764207D0E0D002E71D3 /* TransitionAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAction.swift; sourceTree = "<group>"; };
+		15DD2766207D0E71002E71D3 /* NumberEnteredAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberEnteredAction.swift; sourceTree = "<group>"; };
+		15DD2768207D10CD002E71D3 /* UpdateDisplayAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDisplayAction.swift; sourceTree = "<group>"; };
+		15DD276A207D115F002E71D3 /* NoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoAction.swift; sourceTree = "<group>"; };
+		15DD276C207D1484002E71D3 /* ButtonPressedAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPressedAction.swift; sourceTree = "<group>"; };
+		15DD276E207FE274002E71D3 /* BalanceChangeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceChangeAction.swift; sourceTree = "<group>"; };
+		15DD2770207FF6D8002E71D3 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +131,11 @@
 			children = (
 				15B79DB9207C24DF00DCDA16 /* AppDelegate.swift */,
 				15B79DBB207C24DF00DCDA16 /* ViewController.swift */,
-				15B79DBD207C24DF00DCDA16 /* Main.storyboard */,
+				15B79DD9207C36FD00DCDA16 /* PinPadCollectionViewCell.swift */,
+				15DD2745207C4373002E71D3 /* States */,
+				15DD2744207C434E002E71D3 /* ActionResponse */,
 				15B79DC0207C24E000DCDA16 /* Assets.xcassets */,
+				15B79DBD207C24DF00DCDA16 /* Main.storyboard */,
 				15B79DC2207C24E000DCDA16 /* LaunchScreen.storyboard */,
 				15B79DC5207C24E000DCDA16 /* Info.plist */,
 			);
@@ -94,6 +149,45 @@
 				15B79DD0207C24E000DCDA16 /* Info.plist */,
 			);
 			path = CSCI658_FinalTests;
+			sourceTree = "<group>";
+		};
+		15DD2744207C434E002E71D3 /* ActionResponse */ = {
+			isa = PBXGroup;
+			children = (
+				15DD2740207C3FCA002E71D3 /* ActionResponse.swift */,
+				15DD2742207C419E002E71D3 /* ChangeButtonColorAction.swift */,
+				15DD2764207D0E0D002E71D3 /* TransitionAction.swift */,
+				15DD2766207D0E71002E71D3 /* NumberEnteredAction.swift */,
+				15DD2768207D10CD002E71D3 /* UpdateDisplayAction.swift */,
+				15DD276A207D115F002E71D3 /* NoAction.swift */,
+				15DD276C207D1484002E71D3 /* ButtonPressedAction.swift */,
+				15DD276E207FE274002E71D3 /* BalanceChangeAction.swift */,
+			);
+			path = ActionResponse;
+			sourceTree = "<group>";
+		};
+		15DD2745207C4373002E71D3 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				15DD2770207FF6D8002E71D3 /* Context.swift */,
+				15DD273E207C3DFE002E71D3 /* State.swift */,
+				15DD2746207C438A002E71D3 /* Screen1.swift */,
+				15DD2748207C43CC002E71D3 /* Screen2.swift */,
+				15DD274C207C44B9002E71D3 /* Screen3.swift */,
+				15DD2756207C44B9002E71D3 /* Screen4.swift */,
+				15DD2754207C44B9002E71D3 /* Screen5.swift */,
+				15DD2751207C44B9002E71D3 /* Screen6.swift */,
+				15DD2752207C44B9002E71D3 /* Screen7.swift */,
+				15DD274A207C44B8002E71D3 /* Screen8.swift */,
+				15DD274F207C44B9002E71D3 /* Screen9.swift */,
+				15DD274E207C44B9002E71D3 /* Screen10.swift */,
+				15DD2755207C44B9002E71D3 /* Screen11.swift */,
+				15DD2750207C44B9002E71D3 /* Screen12.swift */,
+				15DD2753207C44B9002E71D3 /* Screen13.swift */,
+				15DD274D207C44B9002E71D3 /* Screen14.swift */,
+				15DD274B207C44B9002E71D3 /* Screen15.swift */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +293,32 @@
 			files = (
 				15B79DBC207C24DF00DCDA16 /* ViewController.swift in Sources */,
 				15B79DBA207C24DF00DCDA16 /* AppDelegate.swift in Sources */,
+				15DD276D207D1484002E71D3 /* ButtonPressedAction.swift in Sources */,
+				15DD275F207C44B9002E71D3 /* Screen7.swift in Sources */,
+				15DD275D207C44B9002E71D3 /* Screen12.swift in Sources */,
+				15DD275A207C44B9002E71D3 /* Screen14.swift in Sources */,
+				15DD2760207C44B9002E71D3 /* Screen13.swift in Sources */,
+				15DD2761207C44B9002E71D3 /* Screen5.swift in Sources */,
+				15DD2762207C44B9002E71D3 /* Screen11.swift in Sources */,
+				15DD275C207C44B9002E71D3 /* Screen9.swift in Sources */,
+				15DD2749207C43CC002E71D3 /* Screen2.swift in Sources */,
+				15DD2741207C3FCA002E71D3 /* ActionResponse.swift in Sources */,
+				15DD2743207C419E002E71D3 /* ChangeButtonColorAction.swift in Sources */,
+				15B79DDA207C36FD00DCDA16 /* PinPadCollectionViewCell.swift in Sources */,
+				15DD2757207C44B9002E71D3 /* Screen8.swift in Sources */,
+				15DD2758207C44B9002E71D3 /* Screen15.swift in Sources */,
+				15DD2759207C44B9002E71D3 /* Screen3.swift in Sources */,
+				15DD2771207FF6D8002E71D3 /* Context.swift in Sources */,
+				15DD2767207D0E71002E71D3 /* NumberEnteredAction.swift in Sources */,
+				15DD276F207FE274002E71D3 /* BalanceChangeAction.swift in Sources */,
+				15DD273F207C3DFE002E71D3 /* State.swift in Sources */,
+				15DD275B207C44B9002E71D3 /* Screen10.swift in Sources */,
+				15DD2765207D0E0D002E71D3 /* TransitionAction.swift in Sources */,
+				15DD276B207D115F002E71D3 /* NoAction.swift in Sources */,
+				15DD2763207C44B9002E71D3 /* Screen4.swift in Sources */,
+				15DD2769207D10CD002E71D3 /* UpdateDisplayAction.swift in Sources */,
+				15DD275E207C44B9002E71D3 /* Screen6.swift in Sources */,
+				15DD2747207C438A002E71D3 /* Screen1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77JU425RX;
 				INFOPLIST_FILE = CSCI658_Final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,7 +488,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "hassamsolano.CSCI658-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -376,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X77JU425RX;
 				INFOPLIST_FILE = CSCI658_Final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -384,7 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "hassamsolano.CSCI658-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
