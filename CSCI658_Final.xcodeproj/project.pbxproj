@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1500481B2088E7F40001D479 /* MessagesUML.png in Resources */ = {isa = PBXBuildFile; fileRef = 150048182088E7F40001D479 /* MessagesUML.png */; };
+		1500481C2088E7F40001D479 /* StateUML.png in Resources */ = {isa = PBXBuildFile; fileRef = 150048192088E7F40001D479 /* StateUML.png */; };
+		1500481D2088E7F40001D479 /* ProjectUML.png in Resources */ = {isa = PBXBuildFile; fileRef = 1500481A2088E7F40001D479 /* ProjectUML.png */; };
 		1537700F208830CD00B069DE /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1537700E208830CD00B069DE /* UITests.swift */; };
 		1537702B2088331000B069DE /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1537702A2088331000B069DE /* UnitTests.swift */; };
 		15B79DBA207C24DF00DCDA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B79DB9207C24DF00DCDA16 /* AppDelegate.swift */; };
@@ -60,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150048182088E7F40001D479 /* MessagesUML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessagesUML.png; sourceTree = "<group>"; };
+		150048192088E7F40001D479 /* StateUML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StateUML.png; sourceTree = "<group>"; };
+		1500481A2088E7F40001D479 /* ProjectUML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectUML.png; sourceTree = "<group>"; };
 		1537700C208830CD00B069DE /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1537700E208830CD00B069DE /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		15377010208830CD00B069DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +132,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150048172088E7DA0001D479 /* UMLs */ = {
+			isa = PBXGroup;
+			children = (
+				150048182088E7F40001D479 /* MessagesUML.png */,
+				1500481A2088E7F40001D479 /* ProjectUML.png */,
+				150048192088E7F40001D479 /* StateUML.png */,
+			);
+			path = UMLs;
+			sourceTree = "<group>";
+		};
 		1537700D208830CD00B069DE /* UITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +166,7 @@
 				15B79DB8207C24DF00DCDA16 /* CSCI658_Final */,
 				1537700D208830CD00B069DE /* UITests */,
 				153770292088331000B069DE /* UnitTests */,
+				150048172088E7DA0001D479 /* UMLs */,
 				15B79DB7207C24DF00DCDA16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -337,9 +354,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1500481B2088E7F40001D479 /* MessagesUML.png in Resources */,
 				15B79DC4207C24E000DCDA16 /* LaunchScreen.storyboard in Resources */,
+				1500481D2088E7F40001D479 /* ProjectUML.png in Resources */,
 				15B79DC1207C24E000DCDA16 /* Assets.xcassets in Resources */,
 				15B79DBF207C24DF00DCDA16 /* Main.storyboard in Resources */,
+				1500481C2088E7F40001D479 /* StateUML.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

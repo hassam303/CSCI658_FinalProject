@@ -55,6 +55,9 @@ class ViewController: UIViewController {
         setUpContext()
         pinPadCollectionView.reloadData()
         print(cells.count)
+        
+        
+        pinPadCollectionView.accessibilityIdentifier = "pinPadCollectionView"
     }
     
     override func didReceiveMemoryWarning() {
