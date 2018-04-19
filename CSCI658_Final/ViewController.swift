@@ -14,6 +14,11 @@ class ViewController: UIViewController {
     var dailyLimit:Double = 500.00
     var validCard:Bool = true
     
+    var linesArray:[UILabel]?
+    var optionBttns:[UIButton]?
+    
+    private var cells:[PinPadCollectionViewCell] = []
+    
     /*UI Components*/
     //Screen
     @IBOutlet weak var atmScreen: UIView!
@@ -48,7 +53,8 @@ class ViewController: UIViewController {
         pinPadCollectionView.delegate = self
         pinPadCollectionView.dataSource = self
         setUpContext()
-        
+        pinPadCollectionView.reloadData()
+        print(cells.count)
     }
     
     override func didReceiveMemoryWarning() {
@@ -62,6 +68,7 @@ class ViewController: UIViewController {
     /*Action Listeners*/
     //PinPad
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        //print(cells.count)
         let cell:PinPadCollectionViewCell = collectionView.cellForItem(at: indexPath) as! PinPadCollectionViewCell
         let action:NumberEnteredAction = NumberEnteredAction(Number: String(cell.value))
         self.CONTEXT?.processAction(action: action)
@@ -114,10 +121,10 @@ class ViewController: UIViewController {
     
     //SetUp Methods
     private func setUpContext(){
-        let linesArray:[UILabel] = [line1, line2, line3, line4, line5]
-        let optionBttns:[UIButton] = [option1Bttn, option2Bttn, option3Bttn]
+        linesArray = [line1, line2, line3, line4, line5]
+        optionBttns = [option1Bttn, option2Bttn, option3Bttn]
         
-        self.CONTEXT = Context(StartBalance: startBalance, DailyLimit: dailyLimit, ValidCard: validCard,Lines: linesArray, OptionButtons: optionBttns)
+        self.CONTEXT = Context(StartBalance: startBalance, DailyLimit: dailyLimit, ValidCard: validCard,Lines: linesArray!, OptionButtons: optionBttns!)
     }
     
     
@@ -131,19 +138,20 @@ extension ViewController:UICollectionViewDelegate, UICollectionViewDataSource{
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell:PinPadCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "pinPadCell", for: indexPath) as! PinPadCollectionViewCell
+        let cell:PinPadCollectionViewCell = pinPadCollectionView.dequeueReusableCell(withReuseIdentifier: "pinPadCell", for: indexPath) as! PinPadCollectionViewCell
         
         cell.layer.borderWidth = 3.0
-        
         if(indexPath.row == 9){
             cell.value = 0
         }else{
             cell.value = indexPath.row + 1
 
         }
-        
         cell.lable.text = String(cell.value)
         
+        
+        cells.append(cell)
+        print(cells[indexPath.row])
         return cell;
     }
 }

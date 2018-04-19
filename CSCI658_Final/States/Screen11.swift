@@ -8,9 +8,7 @@
 
 import Foundation
 
-class Screen11:State{
-    var context:Context?
-    
+class Screen11:State{    
     func getLine1() -> String {
         return "Screen 11"
     }
