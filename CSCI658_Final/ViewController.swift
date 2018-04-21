@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var startBalance:Double = 1000.00
     var dailyLimit:Double = 500.00
     var validCard:Bool = true
+    var depositsAllowed:Bool = false
     
     var linesArray:[UILabel]?
     var optionBttns:[UIButton]?
@@ -54,7 +55,6 @@ class ViewController: UIViewController {
         pinPadCollectionView.dataSource = self
         setUpContext()
         pinPadCollectionView.reloadData()
-        print(cells.count)
         
         
         pinPadCollectionView.accessibilityIdentifier = "pinPadCollectionView"
@@ -127,7 +127,7 @@ class ViewController: UIViewController {
         linesArray = [line1, line2, line3, line4, line5]
         optionBttns = [option1Bttn, option2Bttn, option3Bttn]
         
-        self.CONTEXT = Context(StartBalance: startBalance, DailyLimit: dailyLimit, ValidCard: validCard,Lines: linesArray!, OptionButtons: optionBttns!)
+        self.CONTEXT = Context(StartBalance: startBalance, DailyLimit: dailyLimit, ValidCard: validCard, DepositsAllowed: depositsAllowed,Lines: linesArray!, OptionButtons: optionBttns!)
     }
     
     
@@ -154,7 +154,6 @@ extension ViewController:UICollectionViewDelegate, UICollectionViewDataSource{
         
         
         cells.append(cell)
-        print(cells[indexPath.row])
         return cell;
     }
 }

@@ -12,6 +12,7 @@ class Context{
     var balance:Double
     var dailyLimit:Double
     var validCard:Bool
+    var depAllowed:Bool
     var withdrawnToday: Double
     var failedPinAttempts:Int
     
@@ -48,10 +49,11 @@ class Context{
     var CURRENT_STATE:State
     
     
-    init(StartBalance balance:Double, DailyLimit limit:Double,ValidCard valid:Bool ,Lines lines:[UILabel], OptionButtons optionButtons:[UIButton]){
+    init(StartBalance balance:Double, DailyLimit limit:Double,ValidCard valid:Bool ,DepositsAllowed depAllowed:Bool,Lines lines:[UILabel], OptionButtons optionButtons:[UIButton]){
         self.balance = balance
         self.dailyLimit = limit
         self.validCard = valid
+        self.depAllowed = depAllowed
         self.withdrawnToday = 0.0
         self.failedPinAttempts = 0
         
@@ -72,6 +74,7 @@ class Context{
         
         SCREEN2.attachContext(context:self)
         
+        SCREEN5.attachContext(context:self)
         SCREEN6.attachContext(context:self)
         
         SCREEN7.balance = self.balance
@@ -82,9 +85,9 @@ class Context{
     }
     
     func processAction(action:ActionResponse){
-        print("From ViewController: " + action.action)
+        //print("From ViewController: " + action.action)
         let contextAction = CURRENT_STATE.processAction(action: action)
-        print("State Response: " + contextAction.action)
+        //print("State Response: " + contextAction.action)
         
         //ChangeButtonColor
         if contextAction is ChangeButtonColorAction{
